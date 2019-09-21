@@ -1,1 +1,24 @@
-----
+--- How to run the Program:
+
+Linux commands:
+$javac IPclass.java
+$java IPclass <IPAddress>
+
+--- Examples of Input:
+
+$java IPclass 
+No Arguments specified.
+Try again.
+
+$java IPclass 12.2.2.2.0
+Given argument is an invalid IP Addresss.
+
+$java IPclass 2.15.26.245
+IP Address is in the range 1.0.0.1 to 9.255.255.255
+
+--- Challenges or Issues faced:
+
+* To find a simpler method of validation instead of using many If-else loops
+Solution:
+Referred to:
+https://www.mkyong.com/regular-expressions/how-to-validate-ip-address-with-regular-expression/
