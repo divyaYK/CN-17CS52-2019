@@ -10,4 +10,5 @@ $java Sender.java <br/>
 <br/>
 <br/>
 ### Output Examples:
-Code consists of errors
+Code consists of errors: corrupt packets' messages aren't being reset by timer.java \
+Therefore, acks are not being received after the first corrupt packet.
